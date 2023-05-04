@@ -14,5 +14,21 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
+});
+
+Route::get('/tim-viec-lam', function () {
+    return view('page.job.job');
+});
+Route::get('/chi-tiet-viec-lam', function () {
+    return view('page.detailJob.detailJob');
+});
+Route::get('/mau-cv', function () {
+    return view('page.templateCV.templateCV');
+});
+Route::get('/quan-ly-cv', function () {
+    return view('page.managerCV.managerCV');
+});
+Route::get('/viet-cv', function () {
+    return view('page.writeCV.writeCV');
 });
