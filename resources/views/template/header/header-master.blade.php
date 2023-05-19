@@ -28,6 +28,12 @@
                     </ul>
                 </li>
 
+                <li class="nav-link scrollto">
+                    <a href="/tin-tuc">
+                        <span>Tin tức</span>
+                    </a>
+                </li>
+
             </ul>
             <i class="bi bi-list mobile-nav-toggle d-none"></i>
         </nav><!-- .navbar -->

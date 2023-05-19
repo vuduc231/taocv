@@ -32,3 +32,16 @@ Route::get('/quan-ly-cv', function () {
 Route::get('/viet-cv', function () {
     return view('page.writeCV.writeCV');
 });
+Route::get('/tin-tuc', function () {
+    return view('page.new.new');
+});
+Route::get('/tin-tuc/{title}', function () {
+    return view('page.new.new-detail');
+});
+
+// 'prefix' => 'admin', 'middleware' => 'auth'
+// Route::group([], function () {
+//     Route::get('/dashboard', 'Admin\DashboardController@index');
+//     Route::get('/users', 'Admin\UserController@index');
+//     Route::post('/users/create', 'Admin\UserController@create');
+// });
